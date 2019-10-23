@@ -6,7 +6,17 @@ class DiceGame {
         player2Score = 0
     }
     rollDice(){
-     return Math.floor(Math.random()*6+1)
- }
+        let diceNum = Math.floor(Math.random()*6+1)
+        if (diceNum > 1){
+            diceNum + player1Score
+            return player1Score
+            this.checkVictory()
+        }
+        else{
+            alert
+        }
+    }
+    checkVictory()
+
 
 }
