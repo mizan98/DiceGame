@@ -10,7 +10,6 @@ class DiceGame {
         if (diceNum > 1){
             diceNum + player1Score
             return player1Score
-            
         }
         else{
             player1Score = 0
@@ -25,7 +24,7 @@ class DiceGame {
             this.rollDice2()
         }
     }
-    rollDice(){
+    rollDice2(){
         let diceNum = Math.floor(Math.random()*6+1)
         if (diceNum > 1){
             diceNum + player2Score
@@ -46,3 +45,4 @@ class DiceGame {
         }
     }
 }
+
