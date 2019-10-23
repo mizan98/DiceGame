@@ -13,10 +13,28 @@ class DiceGame {
             this.checkVictory()
         }
         else{
-            alert
+            player1Score = 0
         }
     }
-    checkVictory()
+    checkVictory() {
+        if (player1Score >= 20){
+            alert ("congratulations player 1 wins")
+        }
+        else {
+            this.rollDice2()
+        }
+    }
+    rollDice(){
+        let diceNum = Math.floor(Math.random()*6+1)
+        if (diceNum > 1){
+            diceNum + player2Score
+            return player2Score
+            this.checkVictory2()
+        }
+        else{
+            player2Score = 0
+        }
+    }
 
 
 }
