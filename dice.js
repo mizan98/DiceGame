@@ -46,7 +46,4 @@ class DiceGame {
     }
 }
 
-let person1 = prompt("please enter your name")
-let person2 = prompt("please enter your name")
-
-let newGame = new DiceGame (person1, person2)
+let playerName = document.getElementById("")
