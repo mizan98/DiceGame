@@ -15,14 +15,12 @@ diceRoll.addEventListener("click", ()=>{
         let winnerMsg = document.getElementById("playermsg")
         winnerMsg.textContent = "You WIN!!"
         score = 0
-        diceRoll.textContent = "retry"
     }
 
     else if (dice == 1 && score < 20){
         let loserMsg = document.getElementById("playermsg")
         loserMsg.textContent = "you lose"
         score = 0
-        diceRoll.textContent = "retry"
     } 
 })
 
