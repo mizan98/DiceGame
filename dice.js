@@ -7,8 +7,6 @@ diceRoll.addEventListener("click", ()=>{
     
     if(gameBegin){
         let dice = Math.floor(Math.random() * 6) + 1;
-        diceImg.style.display == "none"
-        diceImg.style.display = "block"
         diceImg.src = "dice-" + dice + ".png"
     }
 })
