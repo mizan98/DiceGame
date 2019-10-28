@@ -23,13 +23,23 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#playermsg {
+  text-align: center;
+}
+
+#player1score {
+  text-align: center;
 }
 
 #roll {
   border: none;
   background: #404040;
-  color: #ffffff !important;
-  font-weight: 100;
+  color: bisque !important;
+  font-weight: 500;
   padding: 20px;
   text-transform: uppercase;
   border-radius: 6px;
