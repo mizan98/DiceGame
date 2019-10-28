@@ -2,13 +2,6 @@ body {
   background-color: #262626;
   color: blanchedalmond;
   font-family: 'Condensed', sans-serif;
-}
-
-#title h1 {
-  text-align: center;
-}
-
-#name-0 {
   text-align: center;
 }
 
@@ -22,21 +15,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-#playermsg {
-  text-align: center;
-}
-
-#player1score {
-  text-align: center;
-}
-
-.Button-placement {
-  text-align: center;
 }
 
 #roll {
