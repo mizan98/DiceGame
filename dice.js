@@ -1,4 +1,4 @@
-let score = 1
+let score = 0
 const diceRoll = document.getElementById("roll")
 const diceImg = document.getElementById("dice-img")
 let gameBegin = true
